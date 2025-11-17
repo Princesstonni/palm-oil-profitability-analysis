@@ -114,9 +114,8 @@ Visualizations include:
 - Yield vs profit correlation  
 - Revenue vs cost trends  
 - Scenario-based financial outcomes  
-- Required area for ₦1B profit  
+- Required area for ₦1B profit
 
-## 📊 Dashboard Preview
-
-![palmOil dashboard](screenshots/dashboard.png)
+  *Interactive Power BI Dashboard:*  
+https://app.powerbi.com/view?r=eyJrIjoiYWIxODBkZTMtOGZhNS00YzE0LTk4MDItNWExYjBhYjlkNTFiIiwidCI6ImMyYjE1OGJkLTZkMTItNDQzZC1iYTUwLTM1NTUzYjE4N2UyNSJ9
 
