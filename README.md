@@ -22,10 +22,11 @@ The goal of this analysis is to estimate:
    - [State-Level Financial Modeling](#4-state-level-financial-modeling)  
 3. [Key Insights](#-key-insights)  
 4. [Dashboard (Power BI)](#-dashboard-power-bi)  
-5. [Repository Structure](#-repository-structure)  
-6. [Skills Demonstrated](#-skills-demonstrated)  
-7. [Author](#-author)  
-8. [License](#-license)
+5. [Repository Structure](#-repository-structure)
+6. [How to Use This Project](#-how-to-use-this-project)
+7. [Skills Demonstrated](#-skills-demonstrated)  
+8. [Author](#-author)  
+9. [License](#-license)
 
 ---
 
@@ -118,4 +119,115 @@ Visualizations include:
 
   *Interactive Power BI Dashboard:*  
 https://app.powerbi.com/view?r=eyJrIjoiYWIxODBkZTMtOGZhNS00YzE0LTk4MDItNWExYjBhYjlkNTFiIiwidCI6ImMyYjE1OGJkLTZkMTItNDQzZC1iYTUwLTM1NTUzYjE4N2UyNSJ9
+
+## 📁 Repository Structure
+
+├── Data_Sources_List.xlsx               # Documentation of all sources used
+├── FAOSTAT_PalmOil_Data.csv             # Cleaned palm oil production data
+├── Okomu_report_data.xlsx               # Extracted benchmark data from Okomu annual reports
+├── PalmOil_Profitability_Model_Clean.xlsx # Final cleaned modeling workbook (yields, costs, scenarios)
+├── PalmOil_Profitability_Dashboard.pbix # Power BI dashboard file
+├── PalmOil_Profitability_Report.pdf     # Final analyst report (executive summary + insights)
+├── palmoil dashboard.png                # Dashboard screenshot for README
+├── README.md                            # Project overview, insights & instructions
+
+## 🚀 How to Use This Project
+1. *Clone the Repository*
+   ```bash
+   git clone https://github.com/Princesstonni/palm-oil-profitability-analysis.git
+or download the ZIP file directly from GitHub.
+
+ 2.	*Open the Dataset*
+	•	Navigate to the Excel files:
+	•	FAOSTAT_PalmOil_Data.csv
+	•	Okomu_report_data.xlsx
+	•	PalmOil_Profitability_Model_Clean.xlsx
+	•	These contain raw data, cleaned data, and the final profitability model.
+
+	3.	*Explore the Profitability Model*
+	•	Open PalmOil_Profitability_Model_Clean.xlsx.
+	•	Review:
+	•	Yield per hectare calculations
+	•	Cost & revenue modeling
+	•	Conservative, Base & Optimistic scenario adjustments
+	•	State-level comparisons (Edo, Ondo, Cross River)
+	•	₦1 billion profit break-even analysis
+
+	4.	*Run the Interactive Dashboard*
+	•	Download the PalmOil_Profitability_Dashboard.pbix file.
+	•	Open it in Power BI Desktop.
+	•	You can:
+	•	Filter by state
+	•	Compare yearly performance (2019–2025)
+	•	View cost vs revenue trends
+	•	Analyze profitability per hectare
+	•	See required area to reach ₦1B annual profit
+
+	5.	*View the Published Dashboard Online*
+	•	Click the live version link (above in README)
+View Interactive Dashboard
+   •	No installation required.
+
+	6.	Read the Final Report
+	•	Open PalmOil_Profitability_Report.pdf to understand:
+	•	Key insights
+	•	Investment recommendations
+	•	Scenario conclusions
+	•	Data assumptions and limitations
+
+	7.	Use this Project for Learning or Re-Analysis
+	•	You can reuse the modeling framework for:
+	•	Agricultural profitability analysis
+	•	State-level or farm-level investment simulations
+	•	Sensitivity & scenario forecasting
+	•	Yield and cost optimization studies
+
+
+## Skills Demonstrated
+
+- *Data Sourcing & Web Research*  
+  Extracted production, yield, cost, and financial benchmark data from FAOSTAT and Okomu Oil PLC reports.
+
+- *Data Cleaning & Transformation (Excel)*  
+  Standardized units, handled missing values, calculated adjusted yields, built scenario models (Conservative, Base, Optimistic).
+
+- *Analytical Modeling*  
+  Developed per-hectare profitability metrics, revenue/cost models, and ₦1B profit break-even simulations across three states.
+
+- *Scenario Analysis*  
+  Applied percentage adjustments to yields and costs; evaluated sensitivity across state and year variations (2019–2025).
+
+- *Data Visualization (Power BI)*  
+  Designed an interactive dashboard showcasing profitability insights, trends, and investment recommendations.
+
+- *Business Insight & Reporting*  
+  Produced a professional PDF report summarizing financial implications, state ranking, and strategic recommendations.
+
+- *Version Control & Documentation*  
+  Organized datasets, models, visualizations, and reports into a structured GitHub repository with detailed README documentation.
+
+## License
+  git add LICENSE
+git commit -m "MIT License
+
+Copyright (c) 2025 Princesstonni
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."
+git push
 
