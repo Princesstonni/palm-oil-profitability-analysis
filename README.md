@@ -70,8 +70,9 @@ Three forecast scenarios:
 | *Base* | 1.00 | Standard | Standard |
 | *Optimistic* | 1.10 | Lower costs | Higher revenue |
 
-### *3. Adjusted Yield Formula*
+### *3. Adjusted Yield Formula:*
 Adjusted_Yield = Base_Yield * Scenario_Multiplier
+Applied scenario multipliers to model realistic outcomes
 
 ### *4. State-Level Financial Modeling*
 For each state and each year:
@@ -79,7 +80,13 @@ For each state and each year:
 - Adjusted costs  
 - Adjusted revenue  
 - Profit per hectare  
-- Required land area to achieve ₦1B profit  
+- Required land area to achieve ₦1B profit
+
+  ### *5. Profit Cpmputation:*
+  Profit per ha = Revenue per ha - Cost per ha
+
+  ### *6. Break-even Estimation:*
+  Determine hectares to required to hit a 1B naira profit target
 
 ---
 
@@ -89,4 +96,27 @@ For each state and each year:
 Strongest yield performance + operational efficiency.
 
 ### ⭐ Average Base Scenario Profit per ha
+₦801,000 per hectare
+
+### ⭐ Land Required to Hit ₦1B Profit: ≈ 109 hectares
+### ⭐ Cross River has the lowest margins  
+Due to higher operating costs.
+
+### ⭐ Optimistic scenario demonstrates strong potential  
+Higher efficiency → significantly higher profit margins.
+
+---
+
+## 📊 Dashboard (Power BI)
+
+Visualizations include:
+- Profitability comparison across states  
+- Yield vs profit correlation  
+- Revenue vs cost trends  
+- Scenario-based financial outcomes  
+- Required area for ₦1B profit  
+
+## 📊 Dashboard Preview
+
+![palmOil dashboard](screenshots/dashboard.png)
 
